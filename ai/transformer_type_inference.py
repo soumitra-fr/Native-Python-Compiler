@@ -437,13 +437,26 @@ class TransformerTypeInferenceEngine:
             optim="adamw_torch"  # Use PyTorch's AdamW (more memory efficient)
         )
         
+        # Custom data collator to handle batching properly
+        def collate_fn(batch):
+            """Custom collator to handle variable-length sequences"""
+            input_ids = torch.stack([item['input_ids'] for item in batch])
+            attention_mask = torch.stack([item['attention_mask'] for item in batch])
+            labels = torch.stack([item['labels'] for item in batch])
+            return {
+                'input_ids': input_ids,
+                'attention_mask': attention_mask,
+                'labels': labels
+            }
+        
         # Trainer
         trainer = Trainer(
             model=self.model,
             args=training_args,
             train_dataset=train_dataset,
             eval_dataset=val_dataset,
-            compute_metrics=self._compute_metrics
+            compute_metrics=self._compute_metrics,
+            data_collator=collate_fn
         )
         
         # Train
