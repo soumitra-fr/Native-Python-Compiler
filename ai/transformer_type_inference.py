@@ -413,7 +413,7 @@ class TransformerTypeInferenceEngine:
             weight_decay=0.01,
             warmup_steps=100,
             logging_steps=10,
-            evaluation_strategy="epoch" if val_dataset else "no",
+            eval_strategy="epoch" if val_dataset else "no",  # Changed from evaluation_strategy
             save_strategy="epoch",
             load_best_model_at_end=True if val_dataset else False,
             metric_for_best_model="accuracy" if val_dataset else None,
