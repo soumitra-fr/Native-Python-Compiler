@@ -1,0 +1,37 @@
+{
+  "q_table": {
+    "large|hot|depth_3|typed": {
+      "native": 71787.37479090565,
+      "optimized": 9054.22169335538,
+      "bytecode": 387.3407788898677,
+      "interpret": 79.71189438867734
+    },
+    "medium|rare|no_loops|untyped": {
+      "native": 4.897745878869736,
+      "optimized": 3.0666171537693567,
+      "bytecode": 0.3308565054582003,
+      "interpret": 0.0978284949273561
+    },
+    "small|common|no_loops|untyped": {
+      "native": 75.23378554916624,
+      "optimized": 43.53235868462283,
+      "bytecode": 4.371487807768716,
+      "interpret": 1.0140394838334759
+    },
+    "medium|hot|no_loops|partial": {
+      "native": 1079.9221624008223,
+      "optimized": 521.2326967403177,
+      "bytecode": 48.482385191382974,
+      "interpret": 10.011099169360778
+    }
+  },
+  "statistics": {
+    "decisions_made": 0,
+    "strategies_used": {
+      "native": 0,
+      "optimized": 0,
+      "bytecode": 0,
+      "interpret": 0
+    }
+  }
+}

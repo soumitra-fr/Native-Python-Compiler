@@ -1,0 +1,8 @@
+MANDELBROT BENCHMARK COMPARISON
+================================================================================
+
+Python Time:    1299.64 ms
+Compiled Time:  26.38 ms
+Speedup:        49.26x
+Time Saved:     1273.25 ms
+Verification:   10,286,319 iterations (both)

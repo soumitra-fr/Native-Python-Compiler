@@ -1,0 +1,29 @@
+# AI Agentic Python Compiler - Requirements
+# Requires Python 3.9+
+
+## Core Dependencies
+numpy>=1.20.0
+scikit-learn>=1.0.0
+
+## Compilation Backend
+numba>=0.55.0
+llvmlite>=0.38.0
+
+## Profiling Tools
+# py-spy is installed via cargo/pip as binary
+
+## ML/AI (Phase 2+)
+# torch>=1.10.0
+# transformers>=4.20.0
+
+## RL (Phase 2.3+)
+# stable-baselines3>=1.5.0
+# gym>=0.21.0
+
+## Development Tools
+pytest>=7.0.0
+black>=22.0.0
+mypy>=0.950
+
+## Visualization
+matplotlib>=3.5.0

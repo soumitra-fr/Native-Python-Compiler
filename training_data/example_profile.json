@@ -1,0 +1,1705 @@
+{
+  "module_name": "test_module",
+  "total_runtime_ms": 0.7277909999999985,
+  "function_calls": {
+    "fibonacci": [
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00020800000000154029,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00025000000000025,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.3352500000000022,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00016600000000283055,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.33966700000000183,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004333000000002196,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.34812499999999774,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.399999999741947e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0045410000000037365,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008833999999999231,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.3610000000000002,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00016599999999589166,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004416999999999616,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008415999999997203,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004333999999994731,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.016667000000004928,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.38170800000000144,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004332999999995257,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.300000000488472e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008333999999998731,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004165999999999892,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.01641699999999774,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004207999999998602,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.009957999999997413,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.030250000000002497,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.4160419999999984,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004375000000000906,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008415999999997203,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004290999999996548,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.016749999999995935,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004374999999993967,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008457999999995913,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.02912500000000484,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004209000000005014,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008249999999994373,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004207999999998602,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.01637499999999903,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.04954199999999964,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.4694999999999977,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004332999999995257,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008458000000002852,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0042499999999973115,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.016500000000002624,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0044999999999975615,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.399999999741947e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008500000000001562,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.028874999999997653,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004375000000000906,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.300000000488472e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008624999999998217,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0042499999999973115,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.018000000000004124,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.05075000000000218,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004583000000002446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008666000000004392,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0042499999999973115,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.01683300000000082,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0001670000000023042,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004290999999996548,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008250000000001312,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.029000000000001247,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.08370800000000178,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.5573749999999988,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00433400000000167,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008416999999996677,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0042910000000034865,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.01662499999999928,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.399999999741947e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0042910000000034865,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.399999999741947e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008292000000000022,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.028791999999999707,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004333999999994731,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008374999999997967,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.399999999741947e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004290999999996548,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.017542000000002334,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.05024999999999474,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004290999999996548,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008416999999996677,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004207999999998602,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.01658300000000057,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00425000000000425,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008250000000001312,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.02870799999999535,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0831249999999964,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004416999999999616,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00016600000000283055,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008500000000001562,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004291999999996021,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.016708000000004164,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00425000000000425,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.008416999999996677,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.028958000000002537,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 8.299999999794583e-05,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004416000000000142,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012499999999665556,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.009583999999999981,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00012500000000359446,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.004290999999996548,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.01904099999999742,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.05204099999999573,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.13912500000000383,
+        "call_count": 1
+      },
+      {
+        "function_name": "fibonacci",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.7021670000000035,
+        "call_count": 1
+      }
+    ],
+    "factorial": [
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.00016599999999589166,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.0031669999999983656,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.005417000000000616,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.007458000000001852,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.009541000000001798,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.011709000000005576,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.013834000000004232,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.01587499999999853,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.01791699999999924,
+        "call_count": 1
+      },
+      {
+        "function_name": "factorial",
+        "arg_types": [
+          "int"
+        ],
+        "return_type": "int",
+        "execution_time_ms": 0.020166000000002016,
+        "call_count": 1
+      }
+    ]
+  },
+  "hot_functions": [
+    "fibonacci",
+    "factorial"
+  ],
+  "type_patterns": {
+    "fibonacci": {
+      "(int) -> int": 177
+    },
+    "factorial": {
+      "(int) -> int": 10
+    }
+  }
+}

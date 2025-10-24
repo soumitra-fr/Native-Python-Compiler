@@ -1,0 +1,54 @@
+{
+  "configuration": {
+    "warmup_runs": 3,
+    "measurement_runs": 10
+  },
+  "results": [
+    {
+      "name": "Addition Loop",
+      "python_time_ms": 25.108566599999982,
+      "python_std_ms": 0.48195610207898365,
+      "compiler_time_ms": 0.004433300000006302,
+      "compiler_std_ms": 0.0003811873409154836,
+      "speedup": 5663.629034796719,
+      "iterations": 1000000,
+      "workload_size": 1000000
+    },
+    {
+      "name": "Multiplication Loop",
+      "python_time_ms": 48.80428749999999,
+      "python_std_ms": 0.5992467409592585,
+      "compiler_time_ms": 3.7694415000000037,
+      "compiler_std_ms": 0.05656837562186079,
+      "speedup": 12.947352412817638,
+      "iterations": 1000000,
+      "workload_size": 1000000
+    },
+    {
+      "name": "Fibonacci(35)",
+      "python_time_ms": 1841.2975373000004,
+      "python_std_ms": 1.3634761465324772,
+      "compiler_time_ms": 0.004254100000267158,
+      "compiler_std_ms": 0.00040139989759523684,
+      "speedup": 432828.9267258331,
+      "iterations": 1,
+      "workload_size": 35
+    },
+    {
+      "name": "Power Calculation",
+      "python_time_ms": 203.31409150000042,
+      "python_std_ms": 4.013099637587167,
+      "compiler_time_ms": 0.004187600000093994,
+      "compiler_std_ms": 0.0002652437865718659,
+      "speedup": 48551.459426744885,
+      "iterations": 1000000,
+      "workload_size": 1000000
+    }
+  ],
+  "statistics": {
+    "mean_speedup": 121764.24063494688,
+    "median_speedup": 27107.5442307708,
+    "min_speedup": 12.947352412817638,
+    "max_speedup": 432828.9267258331
+  }
+}
