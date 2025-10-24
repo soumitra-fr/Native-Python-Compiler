@@ -410,6 +410,11 @@ class TransformerTypeInferenceEngine:
         print(f"Training transformer type inference model...")
         print(f"Training samples: {len(training_data)}")
         
+        # Freeze CodeBERT backbone to save memory (only train classification head)
+        print("🔒 Freezing CodeBERT backbone (training only classification head)...")
+        for param in self.model.codebert.parameters():
+            param.requires_grad = False
+        
         # Prepare dataset
         train_dataset = TypeInferenceDataset(training_data, self.model.tokenizer, self.model.type_to_idx)
         val_dataset = None
