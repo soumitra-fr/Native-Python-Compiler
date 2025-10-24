@@ -53,7 +53,12 @@ class GraphCodeBERTTypeInference(nn.Module):
         # Load pre-trained CodeBERT
         print(f"Loading {model_name}...")
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.codebert = AutoModel.from_pretrained(model_name)
+        
+        # Load with attn_implementation="eager" to avoid scaled_dot_product_attention issues
+        self.codebert = AutoModel.from_pretrained(
+            model_name,
+            attn_implementation="eager"
+        )
         
         # Graph Neural Network layers for AST structure
         self.gnn_layers = nn.ModuleList([
@@ -411,7 +416,7 @@ class TransformerTypeInferenceEngine:
         if validation_data:
             val_dataset = TypeInferenceDataset(validation_data, self.model.tokenizer, self.model.type_to_idx)
         
-        # Training arguments
+        # Training arguments with memory optimizations
         training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=epochs,
@@ -421,13 +426,16 @@ class TransformerTypeInferenceEngine:
             weight_decay=0.01,
             warmup_steps=100,
             logging_steps=10,
-            eval_strategy="epoch" if val_dataset else "no",  # Changed from evaluation_strategy
+            eval_strategy="epoch" if val_dataset else "no",
             save_strategy="epoch",
             load_best_model_at_end=True if val_dataset else False,
             metric_for_best_model="accuracy" if val_dataset else None,
             fp16=torch.cuda.is_available(),
             dataloader_num_workers=0,
-            remove_unused_columns=False
+            remove_unused_columns=False,
+            gradient_accumulation_steps=4,  # Accumulate gradients to simulate larger batch
+            gradient_checkpointing=True,  # Save memory during backprop
+            optim="adamw_torch"  # Use PyTorch's AdamW (more memory efficient)
         )
         
         # Trainer
