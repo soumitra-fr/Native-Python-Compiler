@@ -434,7 +434,6 @@ class TransformerTypeInferenceEngine:
             dataloader_num_workers=0,
             remove_unused_columns=False,
             gradient_accumulation_steps=4,  # Accumulate gradients to simulate larger batch
-            gradient_checkpointing=True,  # Save memory during backprop
             optim="adamw_torch"  # Use PyTorch's AdamW (more memory efficient)
         )
         
