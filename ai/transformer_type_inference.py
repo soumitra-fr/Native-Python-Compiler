@@ -158,8 +158,9 @@ class GraphCodeBERTTypeInference(nn.Module):
         self,
         input_ids: torch.Tensor,
         attention_mask: torch.Tensor,
-        ast_features: Optional[Dict[str, torch.Tensor]] = None
-    ) -> Tuple[torch.Tensor, torch.Tensor]:
+        ast_features: Optional[Dict[str, torch.Tensor]] = None,
+        labels: Optional[torch.Tensor] = None
+    ):
         """
         Forward pass through transformer + GNN
         
@@ -167,10 +168,11 @@ class GraphCodeBERTTypeInference(nn.Module):
             input_ids: Tokenized code [batch_size, seq_len]
             attention_mask: Attention mask [batch_size, seq_len]
             ast_features: Optional AST graph features
+            labels: Optional labels for training [batch_size]
         
         Returns:
-            logits: Type predictions [batch_size, num_types]
-            attention_weights: Attention weights for interpretability
+            If labels provided: (loss, logits, attention_weights)
+            Otherwise: (logits, attention_weights)
         """
         # CodeBERT encoding
         outputs = self.codebert(
@@ -201,6 +203,12 @@ class GraphCodeBERTTypeInference(nn.Module):
         
         # Type classification
         logits = self.classifier(combined)
+        
+        # If labels provided, compute loss (for Trainer compatibility)
+        if labels is not None:
+            loss_fct = torch.nn.CrossEntropyLoss()
+            loss = loss_fct(logits, labels)
+            return {"loss": loss, "logits": logits, "attentions": attention_weights}
         
         return logits, attention_weights
     
